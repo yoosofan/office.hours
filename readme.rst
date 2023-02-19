@@ -1,0 +1,42 @@
+برنامهٔ هفتگی احمد یوسفان نیمسال دوم ۱۴۰۱ - ۱۴۰۲
+-----------------------------------------------------------------------
+.. csv-table::
+  :header-rows: 1
+  :class: smallerelementwithfullborder center tableheaderwithgraybackground
+  :align: center
+
+
+    روز           , ۸ - ۹:۲۰        , ۱۰ - ۱۱:۲۰        , ۱۲:۳۰ - ۱۴      , ۱۴ - ۱۵:۲۰        
+    شنبه          ,                 , برنامه‌نویسی پیشرفته , پایگاه داده           ,                    
+    یکشنبه       ,                 , مراجعهٔ دانشجویی     , سیستم عامل        , کامپایلر
+    دوشنبه       , مراجعهٔ دانشجویی , برنامه‌نویسی پیشرفته , پایگاه داده           ,
+    سه‌شنبه      , مراجعهٔ دانشجویی , روش پژوهش و ارائه , سیستم عامل        , کامپایلر
+
+.. list-table::
+  :class: table-without-border-class
+
+  * - .. include:: assets/text1.rst
+    - .. image:: assets/officehours.png
+
+برنامهٔ هفتگی احمد یوسفان نیمسال دوم ۱۴۰۰ - ۱۴۰۱
+---------------------------------------------------------------------------------------
+.. csv-table::
+  :header-rows: 1
+  :class: smallerelementwithfullborder center tableheaderwithgraybackground
+
+
+    روز           , ۸ - ۹:۲۰        , ۹:۳۰ - ۱۱       , ۱۱ - ۱۲:۲۰      , ۱۲:۳۰ - ۱۴         , ۱۵:۳۰ - ۱۷         , ۱۷ - ۱۸:۲۰
+    شنبه          , مباحث ویژه (حضوری)        , پایگاه داده (مجازی)            ,                 ,                     , برنامه‌نویسی پیشرفته (مجازی)   , 
+    یکشنبه       ,                 , کامپایلر (حضوری)              ,                 , سیستم عامل (مچازی)            ,                     , روش ارائه (حضوری)
+    دوشنبه       , مباحث ویژه (حضوری)        , مراجعهٔ دانشجویی   , پایگاه داده (مجازی)         ,                     , برنامه‌نویسی پیشرفته (مجازی)  ,
+    سه‌شنبه      , مراجعهٔ دانشجویی , کامپایلر (حضوری)                ,                , سیستم عامل (مجازی)            ,                     ,
+
+.. list-table::
+  :class: table-without-border-class
+
+  * - .. include:: assets/text1.rst
+    - .. image:: assets/officehours.png
+
+.. :
+
+  rst2html.py readme.rst office.hours.html --stylesheet=assets/style.css
