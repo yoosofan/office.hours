@@ -15,9 +15,9 @@ cite {direction: ltr; unicode-bidi: embed; }
 .ltr { direction: ltr; }
 .center {text-align: center; align:center;   margin-left: auto;  margin-right: auto;}
 /*.center {display: block; text-align: center;    margin-left: auto; margin-right: auto;}*/
-.toc-backref {     font-size: 1em;}
-.section h1{    font-size: 1.3em;}
-.section h2{    font-size: 1.3em;}
+.toc-backref{font-size: 1em;}
+.section h1{font-size: 1.3em;}
+.section h2{font-size: 1.3em;}
 ol {padding:8px; margin: 8px;}
 ol > li {padding:0; margin: 0; list-style-type: persian;}
 .forgroundcolorred {color: red;}
@@ -30,12 +30,13 @@ ol > li {padding:0; margin: 0; list-style-type: persian;}
   }
 
 .tableheaderwithgraybackground th {
-    /*border: 1px solid black;*/
-    font-weight: bold;
-    background-color: #BFBFBF;
+  /*border: 1px solid black;*/
+  font-weight: bold;
+  background-color: lightgray; /* #BFBFBF; */
+  print-color-adjust: economy;
 }
 .table-without-border-class, .table-without-border-class *{
-    border: none;
+  border: none;
 }
 h1, h2, h3{text-align: center;}
 
@@ -55,6 +56,13 @@ table.smallerelementwithfullborder, table.smallerelementwithfullborder tr, table
 	size: landscape; /*portrait;*/
   }   
   h1:not(:first-child)  {page-break-before: always;} 
+  print-color-adjust: economy;
+
+  .tableheaderwithgraybackground th {
+      font-weight: bold;
+      background-color: lightgray;
+      print-color-adjust: economy;
+  }
 }
 
 /*
