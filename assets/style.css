@@ -55,7 +55,7 @@ table.smallerelementwithfullborder, table.smallerelementwithfullborder tr, table
   @page {
 	size: landscape; /*portrait;*/
   }   
-  h1:not(:first-child)  {page-break-before: always;} 
+  h1 {break-before: always;} 
   print-color-adjust: economy;
 
   .tableheaderwithgraybackground th {
