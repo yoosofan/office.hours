@@ -53,9 +53,9 @@ table.smallerelementwithfullborder, table.smallerelementwithfullborder tr, table
 
 @media print {
   @page {
-	size: landscape; /*portrait;*/
-  }   
-  h1 {break-before: always;} 
+  size: landscape; /*portrait;*/
+  }
+  h1 {break-before: always;}
   print-color-adjust: economy;
 
   .tableheaderwithgraybackground th {
