@@ -83,4 +83,4 @@
 
 .. :
 
-  rst2html.py readme.rst office.hours.html --stylesheet=assets/style.css
+  rst2html4.py readme.rst office.hours.html --stylesheet=assets/style.css
