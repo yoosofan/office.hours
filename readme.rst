@@ -1,6 +1,8 @@
 برنامهٔ هفتگی احمد یوسفان نیمسال یکم ۱۴۰۳ - ۱۴۰۴
 -----------------------------------------------------------------------
 
+.. class:: rtl
+
 .. csv-table::
   :header-rows: 1
   :class: smallerelementwithfullborder center tableheaderwithgraybackground
