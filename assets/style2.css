@@ -1,4 +1,4 @@
-body { direction: rtl; text-align:justify;  font-family:'Nazli', Geneva, sans-serif; font-size: 1.1em;}
+body { direction: rtl; text-align:justify;  font-family:'Nazli', Geneva, sans-serif; font-size: 1.5em;}
 div.sidebar { float: left !important; }
 
 /* The next 3 rules are very useful in documents containing pieces
@@ -53,7 +53,7 @@ table.smallerelementwithfullborder, table.smallerelementwithfullborder tr, table
 
 @media print {
   @page {
-  size: landscape; /*portrait;*/
+  size: A4 landscape; /*portrait;*/
   }
   h1 {break-before: always;}
   /*print-color-adjust: economy;*/
