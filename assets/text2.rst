@@ -1,7 +1,7 @@
 اگر در ساعت «مراجعه» (مراجعهٔ دانشجویی) در دفتر نبودم کمی منتظر بمانید. فقط در ساعت‌های «مراجعه» به دفتر بیایید یا زنگ بزنید. بسیاری از پرسش‌ها را می‌توانید به کمک پیام در تلگرام یا رایانامه بپرسید. در وب‌گاه جزییات بیشتر و به روز شدهٔ ساعت‌های مراجعه دانشجویی یا تغییرهای آن را می‌گذارم. با یک جستجوی ساده در اینترنت به کمک نام و نام خانوادگی‌ام «احمد یوسفان» یا به انگلیسی "Ahmad Yoosofan" می‌توانید به سادگی، اطلاعاتِ بیشتری را درباره‌ام بیابید. 
 
-تلفن دفتر: ۳۴۸۹ - ۵۵۹۱ – ۰۳۱	        تلگرام: https://t.me/yoosofan (@yoosofan)
+.. csv-table::
+    :class: table-without-border-class
 
-وب‌گاه(website، تارنما):  http://yoosofan.github.io 
-
-رایانامه (Email address) :  yoosofan@kashanu.ac.ir ، yoosofan@mail.com
+    تلفن دفتر: ۳۴۸۹ - ۵۵۹۱ – ۰۳۱	   ,     تلگرام: https://t.me/yoosofan (@yoosofan)
+    وب‌گاه(website، تارنما):  http://yoosofan.github.io  , رایانامه (Email address) :  yoosofan@kashanu.ac.ir ، yoosofan@mail.com

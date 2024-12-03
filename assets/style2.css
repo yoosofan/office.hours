@@ -1,54 +1,44 @@
-body { direction: rtl; text-align:justify;  font-family:'Nazli', Geneva, sans-serif; font-size: 1.5em;}
-div.sidebar { float: left !important; }
+@font-face {
+  font-family: 'zantrokeregular';
+  src: url('fonts/zantroke-webfont.woff2') format('woff2'),
+       url('fonts/zantroke-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
-/* The next 3 rules are very useful in documents containing pieces
-of code in english */
-/* Use this if you all your literal blocks (::) are LTR */
+body { direction: rtl; font-family: 'zantrokeregular'; font-size: 1.7em; margin:0.5px; padding:0.5px;}
 pre {direction: ltr; unicode-bidi: embed; }
-/* Use this if you all your inline literals (``) are LTR */
 tt {direction: ltr; unicode-bidi: embed; }
-/* Use this if you all your interpretted text (`) is LTR */
 cite {direction: ltr; unicode-bidi: embed; }
 
-/* Allow manual direction override by class directive and roles */
 .rtl { direction: rtl; }
 .ltr { direction: ltr; }
 .center {text-align: center; align:center;   margin-left: auto;  margin-right: auto;}
-/*.center {display: block; text-align: center;    margin-left: auto; margin-right: auto;}*/
-.toc-backref{font-size: 1em;}
-.section h1{font-size: 1.3em;}
-.section h2{font-size: 1.3em;}
-ol {padding:8px; margin: 8px;}
-ol > li {padding:0; margin: 0; list-style-type: persian;}
-.forgroundcolorred {color: red;}
-  @font-face {
-    font-family: 'zantrokeregular';
-    src: url('fonts/zantroke-webfont.woff2') format('woff2'),
-         url('fonts/zantroke-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-
+p { text-align: justify;}
+table { width: 100%; margin:0.5px; padding:0.5px;}
+table p { margin:0.5px; padding:0.5px; text-align: center;}
 .tableheaderwithgraybackground th {
   /*border: 1px solid black;*/
   font-weight: bold;
   background-color: lightgray; /* #BFBFBF; */
   print-color-adjust: economy;
+  margin:0.5px; padding:0.5px;
 }
 .table-without-border-class, .table-without-border-class *{
   border: none;
+  margin:0.5px; padding:0.5px;
 }
-h1, h2, h3{text-align: center;}
+h1, h2, h3{text-align: center; margin:.0.8px; padding:0.8px;}
 
-@font-face {
+/*@font-face {
   font-family: 'Nastaliq';
   src: url('assets/IranNastaliq-Web.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
-}
+}*/
 table.smallerelementwithfullborder, table.smallerelementwithfullborder tr, table.smallerelementwithfullborder td, table.smallerelementwithfullborder th {
     border: 1px solid black;
-    font-family: Nastaliq;
+    /*font-family: Nastaliq;*/
 }
 
 @media print {
@@ -59,7 +49,7 @@ table.smallerelementwithfullborder, table.smallerelementwithfullborder tr, table
   /*print-color-adjust: economy;*/
 
   .tableheaderwithgraybackground th {
-      font-weight: bold;
+      /*font-weight: bold;*/
       background-color: lightgray;
       /*print-color-adjust: economy;*/
   }
