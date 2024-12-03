@@ -1,12 +1,7 @@
-@font-face {
-  font-family: 'zantrokeregular';
-  src: url('fonts/zantroke-webfont.woff2') format('woff2'),
-       url('fonts/zantroke-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-body { direction: rtl; font-family: 'zantrokeregular'; font-size: 1.7em; margin:0.5px; padding:0.5px;}
+@import "fontface.css";
+:root{--base-font-size: 1.8rem;}
+body { direction: rtl; font-family: behdad; font-size: var(--base-font-size); margin:0.5px; padding:0.5px;}
+/*body { direction: rtl; font-family: 'behdad'; font-size: 1.5em; margin:0.5px; padding:0.5px;}*/
 pre {direction: ltr; unicode-bidi: embed; }
 tt {direction: ltr; unicode-bidi: embed; }
 cite {direction: ltr; unicode-bidi: embed; }
@@ -14,48 +9,38 @@ cite {direction: ltr; unicode-bidi: embed; }
 .rtl { direction: rtl; }
 .ltr { direction: ltr; }
 .center {text-align: center; align:center;   margin-left: auto;  margin-right: auto;}
-p { text-align: justify;}
+p {margin:0.1rem; padding: 0.1rem; text-align: justify;}
 table { width: 100%; margin:0.5px; padding:0.5px;}
-table p { margin:0.5px; padding:0.5px; text-align: center;}
+table p { text-align: center;}
 .tableheaderwithgraybackground th {
   /*border: 1px solid black;*/
   font-weight: bold;
-  background-color: lightgray; /* #BFBFBF; */
+  /* background-color: lightgray;  #BFBFBF; */
   print-color-adjust: economy;
   margin:0.5px; padding:0.5px;
 }
 .table-without-border-class, .table-without-border-class *{
   border: none;
   margin:0.5px; padding:0.5px;
+  text-align: right;
 }
-h1, h2, h3{text-align: center; margin:.0.8px; padding:0.8px;}
-
-/*@font-face {
-  font-family: 'Nastaliq';
-  src: url('assets/IranNastaliq-Web.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}*/
-table.smallerelementwithfullborder, table.smallerelementwithfullborder tr, table.smallerelementwithfullborder td, table.smallerelementwithfullborder th {
-    border: 1px solid black;
-    /*font-family: Nastaliq;*/
-}
+h1, h2, h3{text-align: center; margin:1px; padding:1px;}
+h1 {font-size: calc(var(--base-font-size) + 0.5rem);} /*https://developer.mozilla.org/en-US/docs/Web/CSS/calc*/
+h2 {font-size: calc(var(--base-font-size) + 0.2rem);} 
+table.smallerelementwithfullborder, table.smallerelementwithfullborder tr, table.smallerelementwithfullborder td, table.smallerelementwithfullborder th
+{border: 1px solid black;}
 
 @media print {
-  @page {
-  size: A4 landscape; /*portrait;*/
-  }
-  h1 {break-before: always;}
-  /*print-color-adjust: economy;*/
+  @page {size: A4 landscape;}
+  h2  {break-before: always;}
+  /* 
+   section:not(:first-of-type){break-before: always;}
+   * h1:not(:first-of-type), h2:not(:first-of-type), h3:not(:first-of-type) {break-before: always;}
+  print-color-adjust: economy;*/
 
   .tableheaderwithgraybackground th {
-      /*font-weight: bold;*/
+      /*font-weight: bold;
       background-color: lightgray;
-      /*print-color-adjust: economy;*/
+      print-color-adjust: economy;*/
   }
 }
-
-/*
-https://github.com/mstensho/page-orientation
-https://stackoverflow.com/questions/4013701/select-all-tr-except-the-first-one
-*/

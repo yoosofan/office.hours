@@ -1,7 +1,9 @@
-برنامهٔ هفتگی احمد یوسفان
 ====================================================================
-نیمسال یکم ۱۴۰۳ - ۱۴۰۴
--------------------------------------------------
+برنامهٔ هفتگی احمد یوسفان نیمسال یکم ۱۴۰۳ - ۱۴۰۴
+====================================================================
+
+
+
 .. csv-table::
   :header-rows: 1
   :class: smallerelementwithfullborder center tableheaderwithgraybackground
@@ -22,7 +24,7 @@
     rst2html5 readme.rst office.hours.html --stylesheet=assets/style2.css
     
 برنامهٔ هفتگی احمد یوسفان نیمسال دوم ۱۴۰۲ - ۱۴۰۳
------------------------------------------------------------------------
+===================================================================
 .. csv-table::
   :header-rows: 1
   :class: smallerelementwithfullborder center tableheaderwithgraybackground
@@ -40,13 +42,11 @@
 
   * - .. include:: assets/text1.rst
     - .. image:: assets/officehours.png
-         :width: 100px
-         :height: 100px
-
+         :width: 200px
 
 
 برنامهٔ هفتگی احمد یوسفان نیمسال یکم ۱۴۰۲ - ۱۴۰۳
------------------------------------------------------------------------
+==============================================================
 .. csv-table::
   :header-rows: 1
   :class: smallerelementwithfullborder center tableheaderwithgraybackground
@@ -64,10 +64,10 @@
 
   * - .. include:: assets/text1.rst
     - .. image:: assets/officehours.png
-
+           :width: 200px
 
 برنامهٔ هفتگی احمد یوسفان نیمسال دوم ۱۴۰۱ - ۱۴۰۲
------------------------------------------------------------------------
+======================================================
 .. csv-table::
   :header-rows: 1
   :class: smallerelementwithfullborder center tableheaderwithgraybackground
@@ -85,9 +85,10 @@
 
   * - .. include:: assets/text1.rst
     - .. image:: assets/officehours.png
+           :width: 200px
 
 برنامهٔ هفتگی احمد یوسفان نیمسال دوم ۱۴۰۰ - ۱۴۰۱
----------------------------------------------------------------------------------------
+======================================================
 .. csv-table::
   :header-rows: 1
   :class: smallerelementwithfullborder center tableheaderwithgraybackground
@@ -104,6 +105,7 @@
 
   * - .. include:: assets/text1.rst
     - .. image:: assets/officehours.png
+           :width: 200px
 
 .. :
 
