@@ -3,5 +3,5 @@
 .. csv-table::
     :class: table-without-border-class
 
-    تلفن دفتر: ۳۴۶۸ - ۵۵۹۱ – ۰۳۱	   ,     تلگرام: https://t.me/yoosofan (@yoosofan)
+    تلفن دفتر: ۳۴۸۹ - ۵۵۹۱ – ۰۳۱	   ,     تلگرام: https://t.me/yoosofan (@yoosofan)
     وب‌گاه(website، تارنما):  http://yoosofan.github.io  , رایانامه (Email address) :  yoosofan@kashanu.ac.ir ، yoosofan@mail.com
