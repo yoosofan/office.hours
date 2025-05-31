@@ -2,6 +2,31 @@
 برنامهٔ آزمون‌های احمد یوسفان نیمسال دوم ۱۴۰۳ - ۱۴۰۴
 ====================================================================
 
+
+
+.. csv-table::
+  :header-rows: 1
+  :class: smallerelementwithfullborder center tableheaderwithgraybackground
+  :align: center
+
+
+     روز        , تاریخ  , ۱۰ - ۱۲    , ۱۴ - ۱۶ 
+    سه‌شنبه    , ۳/۲۰ , مراجعه        , مراجعه          
+    چهارشنبه  , ۳/۲۱ , سیستم‌عامل  ,         
+    پنج‌شنبه    , ۳/۲۲ , کامپایلر        ,            
+    چهارشنبه  , ۳/۲۸ , مراجعه        ,
+    پنج‌شنبه    , ۳/۲۹ , مراجعه        , روش پژوهش           
+
+.. include:: assets/text2.rst
+         
+.. :
+
+    rst2html5 readme.rst office.hours.html --stylesheet=assets/style2.css
+
+====================================================================
+برنامهٔ آزمون‌های احمد یوسفان نیمسال دوم ۱۴۰۳ - ۱۴۰۴
+====================================================================
+
 .. csv-table::
   :header-rows: 1
   :class: smallerelementwithfullborder center tableheaderwithgraybackground

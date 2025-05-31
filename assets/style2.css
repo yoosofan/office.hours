@@ -32,7 +32,7 @@ table.smallerelementwithfullborder, table.smallerelementwithfullborder tr, table
 
 @media print {
   @page {size: A4 landscape;}
-  h2  {break-before: always;}
+  h2:not(:first_child) {break-before: always;}
   /* 
    section:not(:first-of-type){break-before: always;}
    * h1:not(:first-of-type), h2:not(:first-of-type), h3:not(:first-of-type) {break-before: always;}
