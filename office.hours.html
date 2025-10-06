@@ -41,8 +41,7 @@ table.smallerelementwithfullborder, table.smallerelementwithfullborder tr, table
 
 @media print {
   @page {size: A4 landscape;}
-  h2 {break-before: always;}
-  h2:not(:first_child) {break-before: always;}
+  section:not(:first-of-type) {break-before: page;}
 }
 
 </style>
